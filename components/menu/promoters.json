@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_menu_promoters",
+  "info": {
+    "name": "Promoters",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SNO": {
+      "type": "integer"
+    },
+    "ShareHolderName": {
+      "type": "string"
+    },
+    "NoOfShares": {
+      "type": "biginteger"
+    },
+    "PercentageOfTotalSharesOfTheCompany": {
+      "type": "integer"
+    },
+    "TotalOfShares": {
+      "type": "biginteger"
+    },
+    "TotalSharesOfTheCompany": {
+      "type": "integer"
+    }
+  }
+}

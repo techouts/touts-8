@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_menu_board_of_directors",
+  "info": {
+    "name": "BoardOfDirectors",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "ListOfBoardOfDirectors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.list"
+    }
+  }
+}

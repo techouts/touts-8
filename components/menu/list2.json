@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_menu_list2_s",
+  "info": {
+    "name": "List2",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
