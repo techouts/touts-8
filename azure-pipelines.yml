@@ -12,10 +12,10 @@ variables:
   azureSubscription: '2f34aad2-4287-4d74-b729-15fd01d9ab08'
 
   # Web app name
-  webAppName: 'akswebapp'
+  webAppName: 'devopswebapps'
 
   # Environment name
-  environmentName: 'akswebapp'
+  environmentName: 'devopswebapps'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
