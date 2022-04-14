@@ -1,0 +1,754 @@
+    1  sudo snap install amazon-ssm-agent --classic
+    2  sudo systemctl start snap.amazon-ssm-agent.amazon-ssm-agent.service
+    3  sudo systemctl status snap.amazon-ssm-agent.amazon-ssm-agent.service
+    4  grep -i port /etc/ssh/sshd_config
+    5  vim /etc/ssh/sshd_config
+    6  systemctl restart sshd
+    7  grep -i port /etc/ssh/sshd_config
+    8  ls
+    9  cd /home/ubuntu/
+   10  ls
+   11  lsb_release
+   12  ~
+   13  cat /etc/lsb-release
+   14  sudo apt-get update
+   15  udo apt-get install docker-ce docker-ce-cli containerd.io
+   16  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   17  docker version
+   18  audo apt-get install docker-ce docker-ce-cli containerd.io
+   19  apt-get install docker-ce docker-ce-cli containerd.io
+   20  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   21  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   22  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+   23  apt-cache policy docker-ce
+   24  sudo apt install docker-ce
+   25  sudo apt update
+   26  sudo apt upgrade
+   27  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+   28  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   29  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu  $(lsb_release -cs)  stable"
+   30  sudo apt update
+   31  sudo apt-get install docker-ce
+   32  ls
+   33  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   34  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   35  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu `lsb_release -cs` test"
+   36  sudo apt update
+   37  sudo apt install docker-ce
+   38  sudo apt-get install -y docker.io
+   39  docker -v
+   40  docker compose version
+   41  mkdir -p ~/.docker/cli-plugins/
+   42  curl -SL https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+   43  chmod +x ~/.docker/cli-plugins/docker-compose
+   44  docker compose version
+   45  chmod +x ~/.docker/cli-plugins/docker-compose
+   46  ls
+   47  docker-compose version
+   48  apt install docker-compose
+   49  docker-compose version
+   50  df -h
+   51  free -g
+   52  ls
+   53  mkdir dockerimages
+   54  cd dockerimages/
+   55  ls
+   56  mkdir mysql
+   57  mkdir nginx
+   58  mkdir magento
+   59  ls
+   60  cd nginx/
+   61  ls
+   62  vim Dockerfile
+   63  ls
+   64  docker build -t hello-world .
+   65  docker images
+   66  clear
+   67  ls
+   68  vim Dockerfile 
+   69  cd ..
+   70  ls
+   71  cd nginx/
+   72  ls
+   73  docker images
+   74  vim Dockerfile 
+   75  ifconfig
+   76  ip a
+   77  docker run -t -i -p 80:80 hello-world
+   78  ls
+   79  vim Dockerfile 
+   80  docker images
+   81  docker ps
+   82  docker run -it 
+   83  docker run -it b5e8d9885aa9
+   84  docker ps -a
+   85  docker run -t -i -p 80:80 hello-world
+   86  cd /etc/
+   87  ls
+   88  cd ngccd ..
+   89  cd ..
+   90  ls
+   91  docker images
+   92  dcoker run -d b5e8d9885aa9
+   93  dcoker run -i b5e8d9885aa9
+   94  dcoker run -it b5e8d9885aa9
+   95  history
+   96  docker run -it ubuntu
+   97  docker images
+   98  docker run -it b5e8d9885aa9
+   99  cd /home/ubuntu/
+  100  ls
+  101  cd dockerimages/
+  102  ls
+  103  cd nginx/
+  104  ls
+  105  vim Dockerfile 
+  106  docker run .
+  107  docker buil .
+  108  docker run Dockerfile 
+  109  ls
+  110  ll
+  111  rm -f .Dockerfile.swp 
+  112  docker run -t
+  113  ls
+  114  docker run -t nginx
+  115  docker build -t mynginx_image1 .
+  116  vim Dockerfile 
+  117  docker build -t mynginx_image1 .
+  118  docker images
+  119  docker stop 
+  120  docker stop 6d30110c6116 
+  121  docker rm 6d30110c6116 
+  122  docker rm hello-world
+  123  docker stop b5e8d9885aa9
+  124  docker rm b5e8d9885aa9
+  125  clear
+  126  docker images
+  127  docker ps
+  128  docker ps -a
+  129  docker ps
+  130  docker images
+  131  docker build -t mynginx_image .
+  132  docker images
+  133  vim Dockerfile 
+  134  docker run -it nginx
+  135  ls
+  136  rm -f Dockerfile 
+  137  ls
+  138  cd /home/ubuntu/
+  139  ls
+  140  cd dockerimages/
+  141  ls
+  142  cd nginx/
+  143  ls
+  144  vim Dockerfile
+  145  docker build -t Dockerfile 
+  146  docker build -t nginx .
+  147  vim Dockerfile
+  148  docker build -t nginx .
+  149  docker images
+  150  docker rm $(docker ps -a -q)
+  151  docker rmi $(docker images -q)
+  152  docker images
+  153  docker stop b5e8d9885aa9
+  154  docker rmi b5e8d9885aa9
+  155  docker rmi ubuntu
+  156  docker rm ubuntu
+  157  docker images
+  158  docker rmi b5e8d9885aa9
+  159  docker images
+  160  clear
+  161  vim Dockerfile 
+  162  docker run -t nginx .
+  163  ll
+  164  docker images
+  165  docker run -t nginx
+  166  docker run -t -i -p 80:80 nginx
+  167  pwd
+  168  vim Dockerfile 
+  169  docker run -t nginx .
+  170  chmod 777 -R Dockerfile 
+  171  docker run -t -i -p 80:80 nginx
+  172  ls
+  173  docker images
+  174  docker build -t nginx .
+  175  docker images
+  176  vim Dockerfile 
+  177  docker run -t -i -p 80:80 nginx
+  178  ls
+  179  docker images
+  180  docker run -it fd3d31a07ae6 /bin/bash
+  181  ll
+  182  docker run -t -i -p 80:80 nginx
+  183  docker run -t -i -p 80:80 nginx &
+  184  ls
+  185  cd /etc/
+  186  ll
+  187  docker run -it fd3d31a07ae6 /bin/bash
+  188  docker run -t -i -p 80:80 nginx &
+  189  ls
+  190  service nginx status
+  191  docker run -it fd3d31a07ae6 /bin/bash
+  192  docker ps -a
+  193  docker rm $(docker ps -a -q)
+  194  docker rmi $(docker images -q)
+  195  docker ps
+  196  docker stop nginx
+  197  docker stop 453aceeb6957
+  198  docker rm 453aceeb6957
+  199  docker ps
+  200  cd /home/ubuntu/
+  201  ls
+  202  cd dockerimages/
+  203  ls
+  204  cd nginx/
+  205  ls
+  206  vim Dockerfile 
+  207  docker build web:nginx .
+  208  docker build -t web:nginx .
+  209  docker ps
+  210  docker images
+  211  docker run -d --name srikanth -p 80:80 2c78f49c1844
+  212  docker ps
+  213  docker ps -a
+  214  docker ps 
+  215  cd ..
+  216  dockermagento
+  217  mkdir dockermagento
+  218  cd dockermagento/
+  219  vim docker-compose.yml
+  220  mkdir database_server
+  221  cd ..
+  222  cd dockermagento/
+  223  mkdir web_server
+  224  mkdir magento2
+  225  cd magento2/
+  226  git clone -b sprint4 https://github.com/techoutshaldiram/haldiram-web.git
+  227  ls
+  228  mv haldiram-web magento2
+  229  ls
+  230  cd ..
+  231  ls
+  232  cd database_server/
+  233  vim Dockerfile
+  234  vim mysql.sh
+  235  ls
+  236  vim supervisord.conf
+  237  ls
+  238  cd ..
+  239  cd web_server/
+  240  ls
+  241  vim Dockerfile
+  242  ls
+  243  vim supervisord.conf
+  244  cd ..
+  245  dcoker-compose build -d
+  246  docker-compose build
+  247  ll
+  248  docker images
+  249  docker-compose up -d
+  250  docker-compose ps
+  251  docker ps
+  252  ls
+  253  docker images
+  254  docker-compose build
+  255  docker images
+  256  ls
+  257  docker images
+  258  history
+  259  ls
+  260  cd /home/ubuntu/
+  261  ls
+  262  cd dockermagento/
+  263  ls
+  264  docker-compose build
+  265  docker images
+  266  docker stop ubuntu
+  267  docker stop 
+  268  docker a196817a01a2
+  269  docker stop
+  270  docker stop a196817a01a2
+  271  docker rm $(docker ps -a -q)
+  272  docker rmi $(docker images -q)
+  273  docker images
+  274  docker ps
+  275  cd ..
+  276  mkdir -p nginx-image; cd nginx-image/
+  277  ls
+  278  vim vim Dockerfile
+  279  ls
+  280  rm -f vim 
+  281  vim Dockerfile
+  282  vim default
+  283  vim supervisord.conf
+  284  vim start.sh
+  285  chmod +x start.sh
+  286  tree .
+  287  apt install tree
+  288  tree .
+  289  docker images
+  290  docker build -t nginx-image .
+  291  docker images
+  292  docker image ls
+  293  mkdir -p /webroot
+  294  cd /webroot/
+  295  ls
+  296  cd /home/ubuntu/nginx-image/
+  297  docker run -d -v /webroot:/var/www/html -p 8080:80 --name test-container nginx-image
+  298  docker ps
+  299  echo '<h1>Nginx and PHP-FPM 7.4 inside Docker Container with Ubuntu 20.04 Base Image</h1>' > /webroot/index.html
+  300  ls
+  301  cd /webroot/
+  302  ls
+  303  vim index.html 
+  304  echo '<?php phpinfo(); ?>' > /webroot/info.php
+  305  ls
+  306  docker images
+  307  cd /home/ubuntu/nginx-image/
+  308  ls
+  309  vim Dockerfile 
+  310  vim default 
+  311  ls
+  312  history
+  313  docker images
+  314  docker run -d 9d880dcebfb2 /bin/bash
+  315  ls
+  316  docker ps
+  317  docker run -it 
+  318  docker run -it 9d880dcebfb2
+  319  docker ps
+  320  docker run -it 555b3ee90e96 /bin/bash
+  321  docker ps
+  322  docker run -d 555b3ee90e96 /bin/bash
+  323  docker exec -it 555b3ee90e96 /bin/bash
+  324  ls
+  325  vim start.sh 
+  326  vim supervisord.conf 
+  327  vim default 
+  328  ls
+  329  vim Dockerfile 
+  330  ls
+  331  vim Dockerfile 
+  332  ls
+  333  cd /webroot/
+  334  ls
+  335  cd /root/
+  336  ls
+  337  pwd
+  338  cd /home/ubuntu/
+  339  ls
+  340  cd nginx-image/
+  341  ls
+  342  vim Dockerfile 
+  343  ll
+  344  vim Dockerfile 
+  345  ls
+  346  vim default 
+  347  ls
+  348  vim start.sh 
+  349  vim supervisord.conf 
+  350  mkdir haldiram
+  351  ls
+  352  rm -rf haldiram/
+  353  mkdir /haldiram
+  354  cd /
+  355  ls
+  356  cd /home/ubuntu/dockerimages/
+  357  ls
+  358  cd magento/
+  359  ls
+  360  cd ..
+  361  ls
+  362  cd dockermagento/
+  363  ls
+  364  cd magento2/
+  365  ls
+  366  cd magento2/
+  367  ls
+  368  mv * /haldiram/
+  369  ls
+  370  cd /haldiram/
+  371  ls
+  372  pwd
+  373  docker images
+  374  docker stop nginx-image
+  375  docker stop 
+  376  docker stop 9d880dcebfb2
+  377  docker ps
+  378  docker stop 555b3ee90e96
+  379  docker rm 555b3ee90e96
+  380  docker ps
+  381  docker images
+  382  docker rm 
+  383  docker stop 9d880dcebfb2
+  384  docker rmi 9d880dcebfb2
+  385  docker rm 14b4a73f3f06
+  386  docker ps
+  387  docker images
+  388  docker images ls
+  389  ls
+  390  cd /home/ubuntu/nginx-image/
+  391  ls
+  392  docker build -t nginx-image .
+  393  vim Dockerfile 
+  394  docker build -t nginx-image .
+  395  vim Dockerfile 
+  396  ls
+  397  vim default 
+  398  ls
+  399  docker build -t nginx-image .
+  400  docker ps
+  401  docker image ls
+  402  docker rm $(docker ps -a -q)
+  403  docker rmi $(docker images -q)
+  404  docker image ls
+  405  ls
+  406  docker images
+  407  docker build -t nginx-image .
+  408  docker image ls
+  409  docker run -d -v /haldiram:/var/www/html -p 8080:80 --name test-container nginx-image
+  410  docker ps
+  411  docker stop 635cd336e9db
+  412  docker run -d -v /haldiram:/var/www/html -p 80:80 --name test-container nginx-image
+  413  docker ps -a
+  414  docker rmi $(docker images -q)
+  415  docker exec -it 635cd336e9db /bin/bash
+  416  docker start 635cd336e9db
+  417  docker exec -it 635cd336e9db /bin/bash
+  418  ls
+  419  docker images
+  420  docker tag nginx-image haldiramcontainerregistry.azurecr.io/nginx-image:v1
+  421  docker login
+  422  docker push haldiramcontainerregistry.azurecr.io/nginx-image:v1
+  423  docker push haldiramcontainerregistry.azurecr.io/nginx-image:v2
+  424  docker images
+  425  docker push haldiramcontainerregistry.azurecr.io/nginx-image
+  426  docker push haldiramcontainerregistry.azurecr.io/nginx-image:v1
+  427  docker login
+  428  docker push haldiramcontainerregistry.azurecr.io/nginx-image:v1
+  429  docker login
+  430  docker images
+  431  docker push nginx-image
+  432  docker login
+  433  docker push nginx-image
+  434  docker push srikanthtechouts/nginx-image
+  435  docker images
+  436  docker push srikanthtechouts/haldiramcontainerregistry.azurecr.io/nginx-image
+  437  docker tag nginx-image srikanthtechouts/nginx-image:v1
+  438  docker push srikanthtechouts/nginx-image
+  439  docker push srikanthtechouts/nginx-image:v1
+  440  docker images
+  441  docker pull srikanthtechouts/mysql57image
+  442  docker images
+  443  docker ps
+  444  docker run -it fbf6e389ebc8 
+  445  docker run -it fbf6e389ebc8 /bin/bash
+  446  docker images
+  447  docker push srikanthtechouts/mysql57image:latest
+  448  docker pull docker push srikanthtechouts/mysql57image:latest
+  449  docker pull srikanthtechouts/mysql57image:latest
+  450  docker images
+  451  docker ps -a
+  452  docker network ls
+  453  docker run -it srikanthtechouts/mysql57image
+  454  docker stop fbf6e389ebc8
+  455  docker rm fbf6e389ebc8
+  456  docker ps
+  457  docker rm srikanthtechouts/mysql57image
+  458  docker rmi srikanthtechouts/mysql57image
+  459  docker stop srikanthtechouts/mysql57image
+  460  docker images
+  461  docker rm 096324a82bc5
+  462  docker rmi -f 096324a82bc5
+  463  docker stop 635cd336e9db
+  464  docker rmi -f 096324a82bc5
+  465  docker ps -a
+  466  docker ps
+  467  docker images
+  468  docker rmi -f 
+  469  docker rmi -f srikanthtechouts/mysql57image
+  470  docker images
+  471  docker rmi b5e8d9885aa9
+  472  docker images
+  473  docker pull srikanthtechouts/nginx-image
+  474  docker pull srikanthtechouts/nginx-image-i
+  475  docker pull srikanthtechouts/nginx-image-i:latest
+  476  docker run -p 4000:80 
+  477  docker pull srikanthtechouts/nginx-image
+  478  docker pull srikanthtechouts/nginx-image:latest
+  479  docker pull srikanthtechouts/nginx-i
+  480  ls
+  481  docker pull srikanthtechouts/nginx-image
+  482  docker pull srikanthtechouts/nginx-image:nginx-image
+  483  docker pull srikanthtechouts/nginx-image:latest
+  484  docker pull srikanthtechouts/nginx-image:master
+  485  docker run -p 80:80 srikanthtechouts/nginx-image
+  486  docker run -p 80:80 srikanthtechouts/nginx-image:latest
+  487  docker run -p 80:80 srikanthtechouts/nginx-image:v1
+  488  cd /opt/
+  489  ls
+  490  cd /home/ubuntu/
+  491  ls
+  492  docker images 
+  493  docker rm $(docker ps -a -q)
+  494  docker rmi $(docker images -q)
+  495  docker images 
+  496  docker rmi srikanthtechouts/nginx-image
+  497  docker rm srikanthtechouts/nginx-image
+  498  docker ps 
+  499  docker stop 6b141b55a821
+  500  docker images
+  501  docker delete 096324a82bc5 
+  502  docker rmi 096324a82bc5 
+  503  docker ps
+  504  sudo apt install nginx
+  505  sudo systemctl status nginx.service
+  506  sudo systemctl enable nginx.service
+  507  sudo systemctl stop nginx.service
+  508  sudo systemctl star nginx.service
+  509  sudo systemctl start nginx.service
+  510  sudo apt install mariadb-server
+  511  sudo apt install mariadb-client
+  512  sudo systemctl status mariadb.service
+  513  sudo systemctl enable mariadb.service
+  514  sudo mysql_secure_installation
+  515  mysql -u root -p
+  516  sudo apt-get install software-properties-common
+  517  sudo add-apt-repository ppa:ondrej/php
+  518  sudo apt update
+  519  sudo apt install php7.4-fpm php7.4-common php7.4-mysql php7.4-gmp php7.4-curl php8.0-intl php7.4-mbstring php7.4-xmlrpc php7.4-gd php7.4-xml php7.4-cli php7.4-zip php7.4-soap 7.4-bcmath
+  520  sudo apt install php7.4-fpm php7.4-common php7.4-mysql php7.4-gmp php7.4-curl php7.4-intl php7.4-mbstring php7.4-xmlrpc php7.4-gd php7.4-xml php7.4-cli php7.4-zip php7.4-soap 7.4-bcmath
+  521  sudo apt install php7.4-fpm php7.4-common php7.4-mysql php7.4-gmp php7.4-curl php7.4-intl php7.4-mbstring php7.4-xmlrpc php7.4-gd php7.4-xml php7.4-cli php7.4-zip php7.4-soap
+  522  sudo apt install 7.4-bcmath
+  523  sudo systemctl starua php7.4-fpm
+  524  sudo systemctl status php7.4-fpm
+  525  ls
+  526  sudo systemctl enable php7.4-fpm
+  527  vim  /etc/php/7.4/fpm/php.ini
+  528  nano  /etc/php/7.4/fpm/php.ini
+  529  vim  /etc/php/7.4/fpm/php.ini
+  530  ls
+  531  cd /etc/nginx/sites-available/
+  532  ls
+  533  cd ..
+  534  cd sites-enabled/
+  535  ls
+  536  zip -r default.zip default 
+  537  apt install zip
+  538  zip -r default.zip default 
+  539  ls
+  540  mv default.zip /home/ubuntu/
+  541  ls
+  542  rm -f default 
+  543  vim magento
+  544  cd /var/www/html/
+  545  ls
+  546  git clone -b sprint4 https://github.com/techoutshaldiram/haldiram-web.git
+  547  ls
+  548  cd haldiram-web/
+  549  ls
+  550  mysql -u root -p 
+  551  ls
+  552  mysql -u root -p sslbeauty < haldiramsrikanth.sql 
+  553  mysql -u root -p 
+  554  cd app/etc/
+  555  vim env.php 
+  556  cd ..
+  557  chmod -R 777 haldiram-web/
+  558  cd haldiram-web/
+  559  ls
+  560  php bin/magento setup:upgrade
+  561  ls
+  562  composer-install
+  563  composer install
+  564  apt install composer
+  565  php bin/magento setup:upgrade
+  566  composer 
+  567  php bin/magento setup:upgrade
+  568  composer install
+  569  sudo apt install php7.4-bcmath
+  570  composer install
+  571  php bin/magento setup:upgrade
+  572  ls
+  573  cd app/code/
+  574  ls
+  575  rm -f *.zip
+  576  ls
+  577  cd Razorpay/
+  578  ls
+  579  rm -rf Razorpay/
+  580  cd ..
+  581  php bin/magento setup:upgrade
+  582  cd app/code/
+  583  ls
+  584  ll
+  585  cd ..
+  586  chmod -R 755 haldiram-web/
+  587  ls
+  588  cd haldiram-web/
+  589  ls
+  590  cd app/code/
+  591  ls
+  592  cd Razorpay/
+  593  ls
+  594  mysql -u root -p
+  595  cd ..
+  596  php bin/magento setup:upgrade
+  597  cd app/code/
+  598  ls
+  599  Razorpay/
+  600  cd Razorpay/
+  601  ls
+  602  cd Magento/
+  603  ls
+  604  cd ../../../
+  605  cd ../
+  606  git status
+  607  git checkout setup
+  608  git checkout dev lib
+  609  git status
+  610  git checkout pub
+  611  git status
+  612  bin/magento s:up
+  613  vim composer.json 
+  614  rm -rf vendor/magento/module-
+  615  bin/magento s:up
+  616  rm -rf vendor/magento/razorpay
+  617  bin/magento s:up
+  618  composer
+  619  composer install
+  620  composer update
+  621  bin/magento s:up
+  622  java -version
+  623  cd /home/ubuntu/
+  624  curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+  625  echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+  626  sudo apt update
+  627  sudo apt install elasticsearch
+  628  vim  /etc/elasticsearch/elasticsearch.yml
+  629  sudo systemctl status elasticsearch
+  630  sudo systemctl start elasticsearch
+  631  sudo systemctl enable elasticsearch
+  632  cd /var/www/html/haldiram-web/
+  633  php bin/magento setup:upgrade
+  634  service elasticsearch status
+  635  bin/elasticsearch-plugin install analysis-phonetic
+  636  bin/elasticsearch-plugin install analysis-icu
+  637  cd /etc/elasticsearch/
+  638  bin/elasticsearch-plugin install analysis-phonetic
+  639  bin/elasticsearch-plugin install analysis-iculs
+  640  ls
+  641  cd /usr/share/elasticsearch/
+  642  bin/elasticsearch-plugin install analysis-phonetic
+  643  bin/elasticsearch-plugin install analysis-icu
+  644  cd /var/www/html/haldiram-web/
+  645  php bin/magento setup:upgrade
+  646  service eleasticserach restart
+  647  systemctl status elasticsearch
+  648  systemctl restart elasticsearch
+  649  systemctl status elasticsearch
+  650  php bin/magento setup:upgrade
+  651  php bin/magento setup:di:compile
+  652  php bin/magento setup:static-content:deploy -f
+  653  php bin/magento cache:flush
+  654  php bin/magento cache:clean
+  655  php bin/magento indexer:reindex 
+  656  chown www-data:www-data haldiram-web/ -R
+  657  cd ..
+  658  chown www-data:www-data haldiram-web/ -R
+  659  ls
+  660  chmod -R 777 haldiram-web/
+  661  service nginx status
+  662  cd /etc/nginx/nginx.conf 
+  663  vim /etc/nginx/nginx.conf 
+  664  cd /etc/nginx/
+  665  ls
+  666  cd sites-enabled/
+  667  ls
+  668  vim magento 
+  669  service nginx restart
+  670  journalctl -xe
+  671  nginx -t
+  672  vim /var/www/html/haldiram-web/nginx.conf.sample 
+  673  service nginx restart
+  674  nginx -t
+  675  ls
+  676  vim /var/www/html/haldiram-web/nginx.conf.sample 
+  677  clear
+  678  nginx -t
+  679  vim /etc/nginx/sites-enabled/magento 
+  680  nginx -t
+  681  vim /etc/nginx/sites-enabled/magento 
+  682  vim 
+  683  ls
+  684  vim magento 
+  685  cd /var/www/html/haldiram-web/
+  686  ls
+  687  vim nginx.conf.sample 
+  688  nginx -t
+  689  vim /var/www/html/haldiram-web/nginx.conf.sample
+  690  vim /etc/nginx/sites-enabled/magento 
+  691  nginx -t
+  692  vim /var/www/html/haldiram-web/nginx.conf.sample
+  693  nginx -t
+  694  service nginx restart
+  695  ls
+  696  cd var/report/
+  697  ls
+  698  cat c88cbff0a322dc38bce9300c5a12518a216c9f1912b5c23eb71f5e37ffbed786 
+  699  mysql -u root -p
+  700  cd ../
+  701  vim app/etc/env.php 
+  702  cd var/report/
+  703  ll -ltr
+  704  ll
+  705  cd ../
+  706  bin/magento s:up
+  707  php bin/magento setup:static-content:deploy -f
+  708  chmod -R 777 ../haldiram-web/
+  709  chown www-data:www-data ../haldiram-web/ -R
+  710  tail -f var/report/50e7a1b6975ab70d8e728a710621169b11c8125e49eb49ff4236a4cde66eb871
+  711  vim app/etc/env.php 
+  712  mysql -u root -p
+  713  ls
+  714  chmod -R 777 ../haldiram-web
+  715  chown www-data:www-data ../haldiram-web -R
+  716  cd var/report/50e7a1b6975ab70d8e728a710621169b11c8125e49eb49ff4236a4cde66eb871
+  717  tail -f  var/report/50e7a1b6975ab70d8e728a710621169b11c8125e49eb49ff4236a4cde66eb871
+  718  vim app/etc/env.php 
+  719  ls
+  720  init 6
+  721  service mysql status
+  722  service nginx status
+  723  vim /etc/nginx/sites-enabled/magento 
+  724  service nginx restart
+  725  cd /var/log/nginx/
+  726  ls
+  727  tail -f haldiram-web-error.log 
+  728  cd /var/www/html/haldiram-web/var/vendor/
+  729  ls
+  730  cd ..
+  731  cd report/
+  732  ls
+  733  tail -f 50e7a1b6975ab70d8e728a710621169b11c8125e49eb49ff4236a4cde66eb871 
+  734  cd ..
+  735  cd app/etc/
+  736  ls
+  737  mysql -u root -p
+  738  vim env.php 
+  739  cd ..
+  740  cd var/report/
+  741  ls
+  742  rm -f *
+  743  cd ..
+  744  php bin/magento setup:upgrade
+  745  php bin/magento setup:static-content:deploy -f
+  746  php bin/magento cache:flush
+  747  php bin/magento cache:clean
+  748  php bin/magento indexer:reindex 
+  749  cd ..
+  750  chown www-data:www-data haldiram-web/ -R
+  751  chmod -R 777 haldiram-web/
+  752  history
+  753  cd /home/ubuntu/
+  754  history > history_for_print.txt
