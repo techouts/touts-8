@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "widget.hero-banner",
+        "widget.horizontal-spacer",
+        "widget.multi-banner",
+        "widget.multi-show-case",
+        "widget.offers-grid",
+        "widget.products-carousel",
+        "widget.quick-links",
+        "widget.shop-by-collection",
+        "widget.show-case",
+        "widget.single-banner",
+        "widget.split-banner"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta"
+    }
+  }
+}

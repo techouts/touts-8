@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_widget_split_banners",
+  "info": {
+    "displayName": "SplitBanner",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "pathLeft": {
+      "type": "string"
+    },
+    "pathRight": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    }
+  }
+}

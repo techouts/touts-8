@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_horizontal_spacers",
+  "info": {
+    "displayName": "HorizontalSpacer",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    }
+  }
+}

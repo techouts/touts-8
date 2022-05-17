@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_hero_banners",
+  "info": {
+    "displayName": "HeroBanner",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "autoPlay": {
+      "type": "boolean"
+    },
+    "controlType": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.hero-banner-items"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_products_carousels",
+  "info": {
+    "displayName": "ProductsCarousel",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "viewMoreLink": {
+      "type": "string"
+    },
+    "isTextHover": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_items_shop_by_collection_items",
+  "info": {
+    "displayName": "ShopByCollectionItems",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "textHoverBG": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_widget_offers_grids",
+  "info": {
+    "displayName": "OffersGrid",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "showTextOnHover": {
+      "type": "boolean"
+    },
+    "showGradient": {
+      "type": "boolean"
+    },
+    "itemBackgroundSpacing": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.offers-grid-items"
+    },
+    "cardBorder": {
+      "type": "boolean"
+    },
+    "itemPaddingBottom": {
+      "type": "string"
+    },
+    "itemPaddingX": {
+      "type": "string"
+    },
+    "smallTextColor": {
+      "type": "string"
+    },
+    "mobileColumns": {
+      "type": "integer"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "desktopColumns": {
+      "type": "integer"
+    }
+  }
+}

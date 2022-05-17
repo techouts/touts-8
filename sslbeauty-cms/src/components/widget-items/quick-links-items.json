@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_items_quick_links_items",
+  "info": {
+    "displayName": "QuickLinksItems",
+    "icon": "sitemap"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

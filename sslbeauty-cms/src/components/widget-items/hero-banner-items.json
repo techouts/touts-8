@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_widget_items_hero_banner_items",
+  "info": {
+    "displayName": "HeroBannerItems",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageUrlMobile": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "isNewTab": {
+      "type": "boolean"
+    }
+  }
+}

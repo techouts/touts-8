@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_items_offers_grid_items",
+  "info": {
+    "displayName": "OffersGridItems",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "offerText": {
+      "type": "string"
+    },
+    "offerTextColor": {
+      "type": "string"
+    },
+    "offerBackground": {
+      "type": "string"
+    },
+    "smallText": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

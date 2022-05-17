@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_items_multi_show_case_items",
+  "info": {
+    "displayName": "MultiShowCaseItem",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

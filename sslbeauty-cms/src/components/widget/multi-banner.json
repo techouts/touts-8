@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_widget_multi_banners",
+  "info": {
+    "displayName": "MultiBanner",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.hero-banner-items"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

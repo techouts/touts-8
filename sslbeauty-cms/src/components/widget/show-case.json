@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_widget_show_cases",
+  "info": {
+    "displayName": "ShowCase",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColor": {
+      "type": "string"
+    },
+    "bgPadding": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "ShowCaseItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "widget-items.show-case-item"
+    }
+  }
+}

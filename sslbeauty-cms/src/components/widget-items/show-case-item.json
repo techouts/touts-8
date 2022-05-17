@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_widget_items_show_case_items",
+  "info": {
+    "displayName": "ShowCaseItem",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "smallText": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}
