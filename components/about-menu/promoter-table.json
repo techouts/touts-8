@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_menu_promoter_tables",
+  "info": {
+    "name": "PromoterTable",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "Sno": {
+      "type": "integer"
+    },
+    "ShareholdersName": {
+      "type": "string"
+    },
+    "NoOfShares": {
+      "type": "biginteger"
+    },
+    "PercentageOfTotalSharesOfTheCompany": {
+      "type": "biginteger"
+    }
+  }
+}

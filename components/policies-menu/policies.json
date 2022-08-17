@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_policies_menu_policies",
+  "info": {
+    "name": "Policies",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Versions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policies-menu.versions"
+    }
+  }
+}

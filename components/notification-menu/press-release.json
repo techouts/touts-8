@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_notification_menu_press_releases",
+  "info": {
+    "name": "PressRelease",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.description"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

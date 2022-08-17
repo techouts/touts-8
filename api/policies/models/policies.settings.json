@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "policies",
+  "info": {
+    "name": "Policies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Policies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policies-menu.policies"
+    }
+  }
+}

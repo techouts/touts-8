@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_menu_benchmarks",
+  "info": {
+    "name": "Benchmarks",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "MobileNo": {
+      "type": "biginteger"
+    },
+    "Level": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}

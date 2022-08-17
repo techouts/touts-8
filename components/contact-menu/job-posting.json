@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_menu_job_postings",
+  "info": {
+    "name": "Job Posting",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "JobCode": {
+      "type": "string"
+    },
+    "JobTitle": {
+      "type": "string"
+    },
+    "JobDescription": {
+      "type": "richtext"
+    }
+  }
+}

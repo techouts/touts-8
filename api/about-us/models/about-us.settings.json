@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "About Us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Background": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.background"
+    },
+    "BoardOfDirectors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.board-of-directors"
+    },
+    "OversightCommittee": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.oversight-committee"
+    },
+    "AnnualReports": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.annual-reports"
+    },
+    "Promoter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.promoter"
+    },
+    "AboutUs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.about-us"
+    }
+  }
+}

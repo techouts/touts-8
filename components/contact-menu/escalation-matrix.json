@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_menu_escalation_matrices",
+  "info": {
+    "name": "EscalationMatrix",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "ListOfEscalationMatrix": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-menu.benchmarks"
+    }
+  }
+}

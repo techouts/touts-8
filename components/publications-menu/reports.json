@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_publications_menu_reports",
+  "info": {
+    "name": "Reports",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "ReportsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "publications-menu.reports-list"
+    }
+  }
+}

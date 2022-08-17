@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_menu_administering_independent_bench_marks",
+  "info": {
+    "name": "AdministeringIndependentBenchMarks",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Disclaimer": {
+      "type": "richtext"
+    }
+  }
+}

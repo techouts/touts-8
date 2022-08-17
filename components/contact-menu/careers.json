@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_menu_careers",
+  "info": {
+    "name": "Careers",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "JobPosting": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-menu.job-posting"
+    }
+  }
+}

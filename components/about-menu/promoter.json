@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_menu_promoters",
+  "info": {
+    "name": "Promoter",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "PromoterTable": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.promoter-table"
+    },
+    "TotalNoOfShares": {
+      "type": "biginteger"
+    },
+    "TotalSharesOfTheCompany": {
+      "type": "biginteger"
+    }
+  }
+}

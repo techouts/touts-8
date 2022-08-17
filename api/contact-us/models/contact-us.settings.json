@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_uses",
+  "info": {
+    "name": "Contact Us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "richtext"
+    },
+    "EscalationMatrix": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-menu.escalation-matrix"
+    },
+    "Careers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-menu.careers"
+    }
+  }
+}

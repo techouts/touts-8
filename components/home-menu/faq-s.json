@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_home_menu_faq_s",
+  "info": {
+    "name": "FAQs",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Pdf": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

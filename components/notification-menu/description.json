@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_notification_menu_descriptions",
+  "info": {
+    "name": "Description",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Pdf": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

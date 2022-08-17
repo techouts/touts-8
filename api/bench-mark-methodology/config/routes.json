@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bench-mark-methodologies",
+      "handler": "bench-mark-methodology.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bench-mark-methodologies/count",
+      "handler": "bench-mark-methodology.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bench-mark-methodologies/:id",
+      "handler": "bench-mark-methodology.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bench-mark-methodologies",
+      "handler": "bench-mark-methodology.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bench-mark-methodologies/:id",
+      "handler": "bench-mark-methodology.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bench-mark-methodologies/:id",
+      "handler": "bench-mark-methodology.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

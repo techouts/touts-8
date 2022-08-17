@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_menu_aboutuses",
+  "info": {
+    "name": "AboutUs",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

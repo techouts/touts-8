@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_menu_backgrounds",
+  "info": {
+    "name": "Background",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

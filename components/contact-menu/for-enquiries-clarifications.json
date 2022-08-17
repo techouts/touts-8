@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_menu_for_enquiries_clarifications",
+  "info": {
+    "name": "ForEnquiriesClarifications",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

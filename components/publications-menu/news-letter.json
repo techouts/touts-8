@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_publications_menu_news_letters",
+  "info": {
+    "name": "NewsLetter",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "publications-menu.description"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

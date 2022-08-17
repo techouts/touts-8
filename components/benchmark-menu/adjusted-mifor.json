@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_benchmark_menu_adjusted_mifors",
+  "info": {
+    "name": "AdjustedMifor",
+    "icon": "genderless"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "URLs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.fbil-bench-marks"
+    }
+  }
+}

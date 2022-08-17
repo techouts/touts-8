@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_useful_menu_links",
+  "info": {
+    "name": "Links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

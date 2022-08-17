@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_notification_menu_archives",
+  "info": {
+    "name": "Archives",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Pdfs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.pdfs"
+    }
+  }
+}

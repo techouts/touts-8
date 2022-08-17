@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_policies_menu_versions",
+  "info": {
+    "name": "Versions",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Pdf": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

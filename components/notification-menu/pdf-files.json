@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_notification_menu_pdf_files",
+  "info": {
+    "name": "PressReleasePdfFiles",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Pdfs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.pdfs"
+    }
+  }
+}

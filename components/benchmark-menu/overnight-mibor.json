@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_benchmark_menu_overnight_mibors",
+  "info": {
+    "name": "OvernightMIBOR",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "URLs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.url-s"
+    }
+  }
+}

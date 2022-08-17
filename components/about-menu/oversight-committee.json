@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_menu_oversight_committees",
+  "info": {
+    "name": "OversightCommittee",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "OversightCommitteeList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.oversight-committee-list"
+    }
+  }
+}

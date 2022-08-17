@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_benchmark_menu_url_s",
+  "info": {
+    "name": "URLs",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Pdf": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

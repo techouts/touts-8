@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bench_mark_methodologies",
+  "info": {
+    "name": "BenchMark Methodology"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "FBILBenchmarks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.fbilb-enchmarks"
+    },
+    "OvernightMIBOR": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "MarketRepoOvernightRate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "TermMIBOR": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "ReferenceRate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "ForwardPremiaCurve": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "MIFORCurve": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "TBillRate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "CDRate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "MIBOROIS": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "FCRupeeOptionsVolatilityMatrix": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "GSecValuation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "SDL": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.overnight-mibor"
+    },
+    "AdjustedMifor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.adjusted-mifor"
+    },
+    "ModifiedMifor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benchmark-menu.adjusted-mifor"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_menu_bank_holiday_tables",
+  "info": {
+    "name": "BankHolidayTable",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "HolidayInMumbaiAndMaharashtra": {
+      "type": "string"
+    },
+    "Day": {
+      "type": "string"
+    }
+  }
+}

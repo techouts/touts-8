@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "TopMarqueeMessage": {
+      "type": "richtext"
+    },
+    "AdministeringIndependentBenchMarks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-menu.administering-independent-bench-marks"
+    },
+    "WhatsNew": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.pdfs"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-menu.footer"
+    },
+    "FAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-menu.faq-s"
+    }
+  }
+}

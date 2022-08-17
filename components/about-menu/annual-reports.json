@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_menu_annual_reports_s",
+  "info": {
+    "name": "AnnualReports ",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "AnnualReportsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-menu.annual-reports-list"
+    }
+  }
+}

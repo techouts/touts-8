@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "name": "Notification"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "PressRelease": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.press-release"
+    },
+    "PressReleasePdfFiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.pdf-files"
+    },
+    "Notifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.press-release"
+    },
+    "ArchivesOfNotification": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.archives"
+    },
+    "Others": {
+      "type": "component",
+      "repeatable": true,
+      "component": "notification-menu.press-release"
+    }
+  }
+}

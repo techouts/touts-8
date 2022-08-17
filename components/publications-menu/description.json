@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_publications_menu_descriptions",
+  "info": {
+    "name": "Description",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "IssueNumber": {
+      "type": "string"
+    },
+    "Pdf": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
