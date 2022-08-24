@@ -2,7 +2,7 @@
 
 # Stage 1 (to create a "build" image, ~140MB)
 FROM openjdk:8-jdk-alpine3.7 AS builder
-RUN java -version
+RUN java -versions
 
 COPY . /usr/src/myapp/
 WORKDIR /usr/src/myapp/
